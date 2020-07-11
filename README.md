@@ -1,4 +1,3 @@
-
 # django-like-system
 
 
@@ -54,12 +53,12 @@ An easy way to add feedback "like/dislike"  to any of your models.
 For live mapping, wrap the entire construction in a div
 with css class 'likesystem':
 
-    {% for obj in my_list %}
-    <div class='likesystem'>
-      <p>{{obj.headline}}-{{obj.likesystem.total}}</p>
-      <span class='likes' data-id={{obj.id}} data-type='test'>like</span>
-      <span class='countlikes'>{{obj.likesystem.likes.count}}</span>      
-      <span class='dislikes' data-id={{obj.id}} data-type='test'>dislike</span>
-      <span class='countdislikes'>{{obj.likesystem.dislikes.count}}</span>
-    </div>
-    {% endfor%}
+      {% for obj in my_list %}
+      <div class='likesystem'>
+        <p>{{obj.headline}}-{{obj.likesystem.total}}</p>
+        <span class='likes' data-id={{obj.id}} data-type='test'>like</span>
+        <span class='countlikes'>{{obj.likesystem.likes.count}}</span>      
+        <span class='dislikes' data-id={{obj.id}} data-type='test'>dislike</span>
+        <span class='countdislikes'>{{obj.likesystem.dislikes.count}}</span>
+      </div>
+      {% endfor%}
