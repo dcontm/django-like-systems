@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="django-like-system", # Replace with your own username
+    name="django-like-systems", # Replace with your own username
     version="0.0.1",
     author="Dmitry Konstantinov",
     author_email="dcontm@gmail.com",

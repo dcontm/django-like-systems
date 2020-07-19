@@ -1,4 +1,4 @@
-# django-like-system
+# django-like-systems
 
 
 An easy way to add feedback "like/dislike"  to any of your models.
@@ -12,16 +12,16 @@ An easy way to add feedback "like/dislike"  to any of your models.
 ## Installation
 
 
-    pip install django-like-system
+    pip install django-like-systems
 
 ## Usage
 
 
-+ Add 'django-like-system' to your INSTALLED_APPS:
++ Add 'django-like-systems' to your INSTALLED_APPS:
     
       INSTALLED_APPS = (
       ...
-      'django-like-system',
+      'django-like-systems',
       ...
       )
 
