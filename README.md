@@ -24,6 +24,13 @@ An easy way to add feedback "like/dislike"  to any of your models.
       'django-like-systems',
       ...
       )
++ Add the like-systems urls to your urlconf:
+
+      urlpatterns = [
+      ...
+      path('', include('like_system.urls')),
+      ...
+      ]
 
 + You must add LIKES_OBJS_DICT dictionary to your settings.py file. The keys in this dictionary - are the path to your model, value - list with class name:
 
